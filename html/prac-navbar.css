@@ -1,0 +1,37 @@
+.outter-nav{
+    display: flex;
+    justify-content: center;
+    border: 0cap;
+    background-color: rgb(15, 134, 15);
+    color: white;
+    margin-top: 0%;
+}
+
+.inner-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(105, 104, 104);
+    color: aliceblue;
+    margin-top: 421px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    border: 100px;
+}
+
+.cards-1{
+    padding: 40px;
+    border: 1px solid black;
+    color: blue;
+}
+
+
+
+

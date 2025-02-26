@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+module.exports = {
+  content: ["./*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}

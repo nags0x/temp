@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+
+        body{
+            background: slategray;
+        }
+
+        #nav_bar{
+            color: aliceblue;
+            background: rgb(0, 35, 67);
+        }
+
+        #nav_Button{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: larger;
+
+        }
+        form{
+            font-size:x-large;
+            text-align: center;
+            padding: 5%;
+        }
+
+        fieldset{
+            padding: 1%;
+        }
+
+        #data{
+            padding: 1%;
+        }
+        #image img{
+            border-radius: 100%;
+            height: 50%;
+            width: 50%;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+        <header id="nav_bar">
+            <div id="nav_Button">
+                <p>Home</p>
+                <p>About</p>
+                <p>Contact</p>
+                <p>Menu</p>
+                <button>Sign in</button>
+            </div>
+        </header>
+        <div id="image">
+            <img src="im.webp">
+        </div>
+        <form action="post" id="form">
+            <fieldset>
+                <legend> Application </legend>
+            <div id="data">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="">
+            </div>
+            <div id="data">
+                <label for="email">Email: </label>
+                <input type="email" name="email">
+            </div>
+            <div id="data">
+                <label for="password">Password: </label>
+                <input type="password" name="password">
+            </div>
+            <div id="data">
+                <label for="number">Ph no: </label>
+                <input type="tel" name="ph_no"  id="">
+            </div>
+            <div id="data">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" name="gender">
+            </div>
+
+            <div id="data">
+                <label for="date">Date: </label>
+                <input type="date" name="date"> 
+            </div>
+            <div id="data">
+                <label for="Hobbies">Hobbies: </label>
+                <label for="Cricket">1.Cricket</label>
+                <input type="checkbox" name="Cricket">
+                <label for="Swimming">Swimming</label>
+                <input type="checkbox" name="Swimming">
+                <label for="Dancing">Dancing</label>
+                <input type="checkbox" name="Dancing">
+            </div>
+            <div id="data">
+                <button>Submit</button>
+            </div>
+
+            </fieldset>
+            
+        </form>
+</body>
+</html>
